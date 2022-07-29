@@ -14,6 +14,9 @@
 
 .right{
     flex:1;
+    position:relative;
+    background-color:var(--orange);
+    
 }
 
 .the_best_ad{
@@ -52,4 +55,124 @@
     font-weight: bold;
     color:white;
     text-overflow:inherit; /*it will wrap itself*/
+}
+
+.hero-text>div:nth-of-type(3){
+    font-size:1rem;
+    font-weight:200;
+    text-transform: none;
+    letter-spacing: 1px;
+    width:80%;   
+}
+
+.figures{
+    display:flex;
+    gap: 2rem;
+}
+
+.figures>div{
+    display:flex;
+    flex-direction: column;
+}
+
+.figures>div>span:nth-of-type(1){
+    color:var(--gray);
+    text-transform: none;
+}
+
+.figures>div>span:nth-of-type(2){
+    color:var(--gray);
+    text-transform: uppercase;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:1rem;
+    font-weight:normal;
+}
+
+.hero-buttons>:nth-child(1){
+    color: white;
+    background-color: var(--orange);
+    width:8rem;
+}
+
+.hero-buttons>:nth-child(2){
+    color:white;
+    background-color: transparent;
+    border: 2px solid var(--orange);
+    width:8rem;
+}
+
+.right>.btn{
+    position:absolute;
+    right:5rem;
+    top:5rem;
+    width:8rem;
+}
+
+.heart-rate{
+    background-color: var(--darkGrey);
+    display:flex;
+    flex-direction: column;
+    width:fit-content;
+    padding:1rem;
+    gap:1rem;
+    align-items: flex-start;
+    border-radius: 5px;
+    position:absolute;
+    right:5rem;
+    top: 10rem;
+}
+.heart-rate>:nth-child(2){
+    color: gray;
+}
+.heart-rate>:nth-child(3){
+    color:white;
+}
+
+.hero_image{
+    position:absolute;
+    right:10rem;
+    top:10rem;
+    width:20rem;
+}
+
+.hero_image_back{
+    position:absolute;
+    width:20rem;
+    top:1rem;
+    right:15rem;
+    z-index: -1;
+}
+
+.calories{
+    position:absolute;
+    top:30rem;
+    right:40rem;
+    display:flex;
+    gap:1rem;
+    background-color: var(--caloryCard);
+    padding:1rem;
+    border-radius: 1rem;
+    width:fit-content;
+}
+
+.calories>img{
+    width: 4rem;
+}
+
+.calories>div{
+    display:flex;
+    flex-direction: column;  
+    justify-content: space-between; 
+}
+
+.calories>div>:nth-child(1){
+    color: var(--gray);
+}
+
+.calories>div>:nth-child(2){
+    color:white;
+    font-size:1.5rem;
 }
