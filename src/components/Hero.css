@@ -1,30 +1,32 @@
 .hero{
     display:flex;
     justify-content: space-between;
+    
 }
 
 .left{
-    padding:2rem;
+    padding:1rem;
     padding-top:1.5rem;
     flex:3;
     display:flex;
     gap:2rem;
     flex-direction: column;
+   
+    
 }
 
 .right{
     flex:1;
-    position:relative;
     background-color:var(--orange);
     
 }
 
 .the_best_ad{
-    margin-top:4rem;
+    margin-top:3rem;
     background-color: #363d42;
-    border-radius:4rem;
+    border-radius:3rem;
     width:fit-content;
-    padding:20px 13px;
+    padding:15px 10px;
     text-transform: uppercase;
     color:white;
     position:relative;
@@ -39,19 +41,19 @@
 .the_best_ad>div{
     position:absolute;
     background-color: var(--orange);
-    width:5.4rem;
+    width:3rem;
     height: 80%;
     left:8px;
-    border-radius: 3rem;
+    border-radius: 2rem;
     
 }
 
 .hero-text{
     display:flex;
     flex-direction: column;
-    gap:1.5rem;
+    gap:1rem;
     text-transform: uppercase;
-    font-size: 4.5rem;
+    font-size: 3rem;
     font-weight: bold;
     color:white;
     text-overflow:inherit; /*it will wrap itself*/
@@ -106,9 +108,9 @@
 
 .right>.btn{
     position:absolute;
-    right:5rem;
-    top:5rem;
-    width:8rem;
+    right:3rem;
+    top:2rem;
+    width:6rem;
 }
 
 .heart-rate{
@@ -121,8 +123,8 @@
     align-items: flex-start;
     border-radius: 5px;
     position:absolute;
-    right:5rem;
-    top: 10rem;
+    right:3rem;
+    top:6rem;
 }
 .heart-rate>:nth-child(2){
     color: gray;
@@ -133,33 +135,33 @@
 
 .hero_image{
     position:absolute;
-    right:10rem;
+    right:8rem;
     top:10rem;
-    width:20rem;
+    width:10rem;
 }
 
 .hero_image_back{
     position:absolute;
-    width:20rem;
-    top:1rem;
-    right:15rem;
+    width:10rem;
+    top:3rem;
+    right:11rem;
     z-index: -1;
 }
 
 .calories{
     position:absolute;
-    top:30rem;
-    right:40rem;
+    top:26rem;
+    right:15rem;
     display:flex;
-    gap:1rem;
+    gap:0.5rem;
     background-color: var(--caloryCard);
-    padding:1rem;
-    border-radius: 1rem;
+    padding:0.5rem;
+    border-radius: 0.5rem;
     width:fit-content;
 }
 
 .calories>img{
-    width: 4rem;
+    width: 2.5rem;
 }
 
 .calories>div{
@@ -174,5 +176,5 @@
 
 .calories>div>:nth-child(2){
     color:white;
-    font-size:1.5rem;
+    font-size:1rem;
 }
