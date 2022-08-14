@@ -15,8 +15,10 @@ const Testimonials = () => {
     <div>
         <div className="Testimonials">
             <div className="testimonials-l">
-                <span>What they</span>
-                <span>say about us</span>
+                <div className='testimony-header'>
+                    <span className='stroke-text'>What they</span>
+                    <span> say about us</span>
+                </div>
                 <span>{testimonialsData[selected].review}</span>
                 <div className="speaker">
                     <span>{testimonialsData[selected].name}</span>
@@ -24,15 +26,13 @@ const Testimonials = () => {
                 </div>
             </div>
             <div className="testimonials-r">
-                <div></div>
-                <div></div>
-                <div>
-                    <img src={testimonialsData[selected].image} alt="speaker image"/>
-                </div>
                 <div className="arrow">
                     <img src={leftArrow} alt="" onClick={()=>{selected===0 ? setSelected(dataIndex-1): setSelected(prev=>prev-1)}}/>
                     <img src={rightArrow} alt="" onClick={()=>{selected===dataIndex-1 ? setSelected(dataIndex-dataIndex): setSelected(prev=>prev+1)}}/>
                 </div>
+                <div></div>
+                <div></div>
+                 <img src={testimonialsData[selected].image} alt="speaker image"/>
             </div>
         </div>
 
