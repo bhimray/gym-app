@@ -133,13 +133,13 @@
     color:white;
 }
 
-.hero_image{
-    position:absolute;
-    right:8rem;
-    top:10rem;
-    width:10rem;
-}
-
+.hero_image {
+    position: absolute;
+    right: 18rem;
+    top: 10rem;
+    width: 18rem;
+  }
+  
 .hero_image_back{
     position:absolute;
     width:10rem;
@@ -151,7 +151,7 @@
 .calories{
     position:absolute;
     top:26rem;
-    right:15rem;
+    right: 46rem;
     display:flex;
     gap:0.5rem;
     background-color: var(--caloryCard);

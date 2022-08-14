@@ -21,7 +21,31 @@ const Reasons = () => {
                 <img src={image4} alt="image4"/>
             </div>
             <div className="right-s">
-                right side
+                <div className="someReasons">
+                    Some Reasons
+                </div>
+                <div className='why'>
+                    <span className='stroke-text'>Why </span>
+                    <span> Choose Us?</span>
+                </div>
+                <div>
+                    <div>
+                        <img src="" alt=""></img>
+                        <span></span>
+                    </div>
+                    <div>
+                        <img src="" alt="" />
+                        <span></span>
+                    </div>
+                    <div>
+                        <img src="" alt="" />
+                        <span></span>
+                    </div>
+                    <div>
+                        <img src="" alt="" />
+                        <span></span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
