@@ -30,20 +30,20 @@ const Reasons = () => {
                 </div>
                 <div>
                     <div>
-                        <img src="" alt=""></img>
-                        <span></span>
+                        <img src={tick} alt=""></img>
+                        <span>Provide coaching service from expert</span>
                     </div>
                     <div>
-                        <img src="" alt="" />
-                        <span></span>
+                        <img src={tick} alt="" />
+                        <span>Train smarter and better</span>
                     </div>
                     <div>
-                        <img src="" alt="" />
-                        <span></span>
+                        <img src={tick}  alt="" />
+                        <span>Free for 1 week for new member</span>
                     </div>
                     <div>
-                        <img src="" alt="" />
-                        <span></span>
+                        <img src={tick} alt="" />
+                        <span>Well equiped for all exercise</span>
                     </div>
                 </div>
             </div>
