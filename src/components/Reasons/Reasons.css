@@ -1,0 +1,31 @@
+.Reasons{
+    padding:0 2rem;
+    display:flex;
+    grid-template: 2rem;
+}
+
+.left-s{
+    display: grid;
+    flex:1 1;
+    grid-template-columns: (3, 1fr);
+    grid-auto-rows:1fr;
+}
+.left-s>img{
+    object-fit: cover;
+    gap:1rem;
+}
+
+.left-s>:nth-child(1){
+    grid-row:1/3;
+}
+
+.left-s>:nth-child(2){
+    height:auto;
+    width:16rem;
+}
+
+.right-s{
+    color:white;
+    font-weight: bolder;
+}
+
