@@ -28,20 +28,20 @@ const Reasons = () => {
                     <span className='stroke-text'>Why </span>
                     <span> Choose Us?</span>
                 </div>
-                <div>
-                    <div>
+                <div className='whyList'>
+                    <div className='whyListItem'>
                         <img src={tick} alt=""></img>
                         <span>Provide coaching service from expert</span>
                     </div>
-                    <div>
+                    <div className='whyListItem'>
                         <img src={tick} alt="" />
                         <span>Train smarter and better</span>
                     </div>
-                    <div>
+                    <div className='whyListItem'>
                         <img src={tick}  alt="" />
                         <span>Free for 1 week for new member</span>
                     </div>
-                    <div>
+                    <div className='whyListItem'>
                         <img src={tick} alt="" />
                         <span>Well equiped for all exercise</span>
                     </div>

@@ -1,7 +1,7 @@
 .Reasons{
     padding:0 2rem;
     display:flex;
-    grid-template: 2rem;
+    gap: 2rem;
 }
 
 .left-s{
@@ -42,6 +42,8 @@
 
 .right-s{
     flex:1 1;
+    gap:2rem;
+    text-transform: uppercase;
 }
 
 .someReasons{
@@ -53,5 +55,24 @@
     font-size:3rem;
     font-weight: bolder;
     color:white;
+}
+
+.whyList{
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+    padding-left:4rem;
+}
+.whyListItem{
+    display:flex;
+    justify-items: center;
+    align-items: center;
+    gap:2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color:white;
+}
+.whyListItem>img{
+    width:2rem;
 }
 

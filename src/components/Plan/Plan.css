@@ -1,0 +1,61 @@
+.plan-container{
+    display:grid;
+    gap:5rem;
+}
+.plan-header{
+    font-size:3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.plan-card{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+}
+
+
+.plan-details{
+    display:grid;
+    background-color: #445a66;
+    gap:2rem;
+    justify-items:center;
+    align-items: center;
+    padding:2rem;
+    color:white;
+}
+
+.plan-details>:nth-child(1){
+    fill: var(--orange);
+    width:2rem;
+    height:2rem;
+}
+
+.plan-details>:nth-child(2){
+    font-size: 2rem;
+    font-weight: bold;
+}
+.plan-details>:nth-child(3){
+    font-size:2rem;
+    font-weight: bold;
+}
+
+.features{
+    font-size:1rem;
+    font-weight: bold;
+    display: grid;
+    gap:1rem;
+}
+.features>div{
+    display:flex;
+    gap:1rem;
+}
+.features>div>img{
+    width:1rem;
+}
+
+.plan-card>:nth-child(2){
+    transform:scale(1.2);
+    background-color: #f3e61bde;
+}

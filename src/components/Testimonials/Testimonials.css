@@ -1,0 +1,14 @@
+.Testimonials{
+    display:flex;
+}
+.testimonials-l{
+    display:flex;
+    flex-direction: column;
+    flex:1 1;
+    
+}
+.testimonials-r{
+    display: flex;
+    flex:1 1;
+    flex-direction: column;
+}
