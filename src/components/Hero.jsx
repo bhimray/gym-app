@@ -6,15 +6,21 @@ import hero_image from "../assets/hero_image.png"
 import hero_image_back from "../assets/hero_image_back.png"
 import heart from "../assets/heart.png"
 import Calories from "../assets/calories.png"
+import { motion } from "framer-motion"
 
 const Hero = () => {
   return (
     <div className="hero">
+      <div className="blur hero-blur"></div>
       <div className='left'>
         <Header/>
         {/*the best ad*/}
         <div className='the_best_ad'>
-          <div></div>
+          <motion.div
+          initial={{left:"238px"}}
+          whileInView={{left:"9px"}}
+          transition={{type:"spring", duration:2.5}}
+          ></motion.div>
           <span>the best fitness club in the town</span>
         </div>
         {/*the hero text*/}
@@ -58,14 +64,22 @@ const Hero = () => {
         <button className="btn">
           Join Now
         </button>
-        <div className='heart-rate'>
+        <motion.div
+        initial={{right:"-3rem"}}
+        whileInView={{right:"3rem"}}
+        transition={{type:"spring", duration:2}}
+        className='heart-rate'>
           <img src={heart} alt="heart"/>
           <span>Heart Rate</span>
           <span>116 bpm</span>
-        </div>
+        </motion.div>
         {/* hero image */}
         <img src={hero_image} alt="hero_image" className='hero_image'/>
-        <img src= {hero_image_back} alt="back_image" className='hero_image_back'/>
+        <motion.img 
+        initial={{right:"13rem"}}
+        whileInView={{right:"22rem"}}
+        transition={{type:"tween", duration:2}}
+        src= {hero_image_back} alt="back_image" className='hero_image_back'/>
 
         {/* calories */}
         <div className='calories'>

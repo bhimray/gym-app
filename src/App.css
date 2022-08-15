@@ -42,3 +42,11 @@
 .btn:hover{
   cursor:pointer;
 }
+
+.blur{
+  background-color: #ea3c2a4f;
+  position:absolute;
+  z-index:-9;
+  border-radius: 50%;
+  filter:blur(212px);
+}

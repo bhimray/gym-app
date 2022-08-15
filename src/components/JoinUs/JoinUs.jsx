@@ -5,13 +5,18 @@ const JoinUs = () => {
   return (
     <div className='joinus-container'>
         <div className="joinus-l">
-            <span>Become</span>
-            <span className='stroke-text'>Muscular</span>
-            <span>with us</span>
-            <span>It's time to be complete you</span>
+            <hr/>
+            <div>
+              <span>Become Muscular</span>
+              <span className='stroke-text'> with us</span>
+              <span>It's time to be complete you</span>
+            </div>
         </div>
         <div className="joinus-r">
-            <input type='email' name='email' className='email' placeholder='email address'/>
+          <form action="" className='email-sub'>
+            <input type='email' name='email' className='email' placeholder='provide email address'/>
+            <button className='btn btn-j'>Join Us</button>
+          </form>
         </div>
     </div>
   )

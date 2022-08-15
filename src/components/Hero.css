@@ -4,6 +4,10 @@
     
 }
 
+.hero-blur{
+    width:30rem;
+    height:30rem;
+}
 .left{
     padding:1rem;
     padding-top:1.5rem;
@@ -18,7 +22,7 @@
 .right{
     flex:1;
     background-color:var(--orange);
-    
+    /* filter:blur(2px);     */
 }
 
 .the_best_ad{
@@ -41,10 +45,10 @@
 .the_best_ad>div{
     position:absolute;
     background-color: var(--orange);
-    width:3rem;
+    width:5rem;
     height: 80%;
     left:8px;
-    border-radius: 2rem;
+    border-radius: 5rem;
     
 }
 
@@ -77,8 +81,10 @@
     flex-direction: column;
 }
 
+
 .figures>div>span:nth-of-type(1){
-    color:var(--gray);
+    color:whitesmoke;
+    font-weight: bold;
     text-transform: none;
 }
 
@@ -135,16 +141,16 @@
 
 .hero_image {
     position: absolute;
-    right: 18rem;
+    right: 13rem;
     top: 10rem;
     width: 18rem;
   }
   
 .hero_image_back{
     position:absolute;
-    width:10rem;
+    width:12rem;
     top:3rem;
-    right:11rem;
+    right:21rem;
     z-index: -1;
 }
 

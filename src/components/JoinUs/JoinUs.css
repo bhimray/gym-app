@@ -1,0 +1,55 @@
+.joinus-container{
+    display:flex;
+    position:relative;
+    gap:2rem;
+    margin-top:5rem;
+    margin-bottom:5rem;
+    padding:0 2rem;
+}
+.joinus-l{
+    display:flex;
+    gap:1rem;
+    flex:1 1;
+}
+.joinus-l>div{
+    display:flex;
+    flex-direction:column;
+}
+.joinus-l>div>:nth-child(1), .joinus-l>div>:nth-child(2){
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.joinus-l>hr{
+    position:absolute;
+    width:10rem;
+    border:2px solid var(--orange);
+    border-radius: 20%;
+    margin:-10px;
+
+}
+
+.joinus-r{
+    display:flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.email-sub{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: gray;
+    padding:1rem;
+    gap:1.5rem;
+}
+
+.email-sub>input{
+    background-color: transparent;
+    border:none;
+    outline: none;
+}
+
+.btn-j{
+    background-color: #805e5e59;
+}
+

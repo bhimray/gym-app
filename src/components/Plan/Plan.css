@@ -1,6 +1,9 @@
+
 .plan-container{
     display:grid;
     gap:5rem;
+    padding:0 2rem;
+    
 }
 .plan-header{
     font-size:3rem;
