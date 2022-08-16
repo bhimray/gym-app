@@ -56,13 +56,13 @@
 @media screen and (max-width:768px) {
     .joinus-container{
         display:grid;
-        position:relative;
         gap:1rem;
         margin-top:20rem;
         margin-bottom:5rem;
         padding:0 0rem;
         justify-content: center;
         align-items: center;
+        position:relative;
     }
     .joinus-l{
         display:grid;
@@ -83,5 +83,14 @@
         padding:1rem;
         gap:1.5rem;
     }
+    .joinus-l>hr{
+        position:relative;
+        width:10rem;
+        border:2px solid var(--orange);
+        border-radius: 20%;
+        margin:-0px;
+    
+    }
+    
     
 }

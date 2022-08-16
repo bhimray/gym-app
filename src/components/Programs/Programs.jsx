@@ -18,7 +18,7 @@ function Programs() {
                 <div>{program.image}</div>
                 <span>{program.heading}</span>
                 <span>{program.details}</span>
-                <div className="join-now">Join now</div>
+                <div className="btn" style={{color:"var(--orange)"}}>Join now</div>
               </div>
             </Fragment>
           ))
