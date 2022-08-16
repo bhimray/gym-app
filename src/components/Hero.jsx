@@ -17,7 +17,7 @@ const Hero = () => {
         {/*the best ad*/}
         <div className='the_best_ad'>
           <motion.div
-          initial={{left:"238px"}}
+          initial={{left:"210px"}}
           whileInView={{left:"9px"}}
           transition={{type:"spring", duration:2.5}}
           ></motion.div>
@@ -81,7 +81,7 @@ const Hero = () => {
             >Join Now</Link>
         </button>
         <motion.div
-        initial={{x:100}}
+        initial={{x:30}}
         whileInView={{x:0}}
         transition={{type:"spring", duration:2}}
         className='heart-rate'>
@@ -92,7 +92,7 @@ const Hero = () => {
         {/* hero image */}
         <img src={hero_image} alt="hero_image" className='hero_image'/>
         <motion.img 
-        initial={{x:100}}
+        initial={{x:30}}
         whileInView={{x:0}}
         transition={{type:"tween", duration:2}}
         src= {hero_image_back} alt="back_image" className='hero_image_back'/>
