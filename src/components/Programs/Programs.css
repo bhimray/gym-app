@@ -29,3 +29,15 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) {
+    .programs-header{
+        font-size: x-large;
+        gap:1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .program-categories{
+        display:grid;
+        gap:1rem;
+    }
+}

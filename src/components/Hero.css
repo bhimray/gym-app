@@ -184,3 +184,66 @@
     color:white;
     font-size:1rem;
 }
+
+@media screen and (max-width: 768px) {
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero-blur{
+        width: 25rem;
+    }
+    .the_best_ad{
+        margin-top:0rem;
+        align-self: center;
+        font-size:small;
+        transform: scale(0.8);    
+    }
+
+    .hero-text{
+        font-size: xx-large;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .figures{
+        font-size: large;
+        justify-content: center;
+        align-items: center;
+    }
+    .figures>div>span:nth-of-type(2){
+        font-size: small;
+    }
+    .heart-rate{
+        position:relative;
+        top:3rem;
+        right:-2rem;
+    }
+    .hero_image {
+        position: relative;
+        width:15rem;
+        right:-8rem;
+        top:0.5rem;
+        z-index: 3;
+    }
+    .hero_image_back{
+        position:relative;
+        right:-8rem;
+        top:-30rem;
+        z-index:2;
+    }
+    .right{
+        height:max-content;
+    }
+    .right>.btn{
+        position:relative;
+        right:-2rem;
+    }
+    .calories{
+        position:relative;
+        top:-25rem;
+        right:-0.5rem;
+        
+    }
+
+}

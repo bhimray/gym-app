@@ -53,3 +53,35 @@
     background-color: #805e5e59;
 }
 
+@media screen and (max-width:768px) {
+    .joinus-container{
+        display:grid;
+        position:relative;
+        gap:1rem;
+        margin-top:20rem;
+        margin-bottom:5rem;
+        padding:0 0rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .joinus-l{
+        display:grid;
+        gap:0rem;
+        flex:1 1;
+        
+    }
+    .joinus-l>div>:nth-child(1), .joinus-l>div>:nth-child(2){
+        font-size: xx-large;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .email-sub{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        background-color: gray;
+        padding:1rem;
+        gap:1.5rem;
+    }
+    
+}

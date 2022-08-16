@@ -18,7 +18,6 @@
     gap:5rem;
 }
 
-
 .plan-details{
     display:grid;
     background-color: #445a66;
@@ -61,4 +60,60 @@
 .plan-card>:nth-child(2){
     transform:scale(1.2);
     background-color: #f3e61bde;
+}
+
+
+@media screen and (max-width:768px) {
+    .plan-header{
+        font-size:x-large;
+        
+    }
+    .plan-card{
+        display:grid;
+        justify-content: center;
+        align-items: center;
+        gap:3rem;
+    }
+    .plan-details{
+        display:grid;
+        background-color: #445a66;
+        gap:1rem;
+        justify-items:center;
+        align-items: center;
+        padding:0.5rem;
+        color:white;
+    }
+    
+    .plan-details>:nth-child(1){
+        fill: var(--orange);
+        width:2rem;
+        height:2rem;
+    }
+    
+    .plan-details>:nth-child(2){
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .plan-details>:nth-child(3){
+        font-size:small;
+        font-weight: bold;
+    }
+    
+    .features{
+        font-size:small;
+        font-weight: bold;
+        display: grid;
+        gap:0.5rem;
+    }
+    .features>div{
+        display:flex;
+        gap:0.5rem;
+    }
+    .features>div>img{
+        width:0.5rem;
+    }
+    .plan-card>:nth-child(2){
+        transform:scale(1);
+        background-color: #f3e61bde;
+    }
 }

@@ -14,7 +14,6 @@ const Plan = () => {
         <div className='plan-card'>
             {plansData.map((data, i)=>(
                 <Fragment>
-                
                     <div className='plan-details' key={i}>
                         {data.icon}
                         <span>{data.name}</span>

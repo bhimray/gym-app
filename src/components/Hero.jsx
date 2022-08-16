@@ -65,8 +65,8 @@ const Hero = () => {
           Join Now
         </button>
         <motion.div
-        initial={{right:"-3rem"}}
-        whileInView={{right:"3rem"}}
+        initial={{x:100}}
+        whileInView={{x:0}}
         transition={{type:"spring", duration:2}}
         className='heart-rate'>
           <img src={heart} alt="heart"/>
@@ -76,8 +76,8 @@ const Hero = () => {
         {/* hero image */}
         <img src={hero_image} alt="hero_image" className='hero_image'/>
         <motion.img 
-        initial={{right:"13rem"}}
-        whileInView={{right:"22rem"}}
+        initial={{x:100}}
+        whileInView={{x:0}}
         transition={{type:"tween", duration:2}}
         src= {hero_image_back} alt="back_image" className='hero_image_back'/>
 

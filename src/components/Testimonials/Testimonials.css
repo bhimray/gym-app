@@ -73,3 +73,65 @@
     cursor: pointer;
 
 }
+
+@media screen and (max-width: 768px) {
+    .Testimonials{
+        display:grid;
+        margin-top:5rem;
+        padding:0 2rem;
+    }
+    .testimony-header{
+        font-size:x-large;
+        display:grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .testimonials-r{
+        display: grid;
+        flex:1 1;
+        position:relative;
+       
+        /* flex-direction: column; */
+    }
+    .testimonials-r>:nth-child(4){
+        width: 15rem;
+        height: 15rem;
+        object-fit: cover;
+        position:absolute;
+        top:5rem;
+        right:-0.5rem;
+        
+    }
+    
+    .testimonials-r>:nth-child(2){
+        width:15rem;
+        height:15rem;
+        border:2px solid var(--orange);
+        position:relative;
+        position:absolute;
+        top:4rem;
+        right:0rem;
+    }
+    .testimonials-r>:nth-child(3){
+        width:15rem;
+        height:15rem;
+        background-color: var(--orange);
+        position:absolute;
+        top:6rem;
+        right:-1rem;
+        
+    }
+    
+    .arrow{
+        position:relative;
+        top:1rem;
+        right:0rem; 
+    }
+    
+    .arrow>:nth-child(1), .arrow>:nth-child(2){
+        width:1.5rem;
+        cursor: pointer;
+    
+    }
+    
+}
