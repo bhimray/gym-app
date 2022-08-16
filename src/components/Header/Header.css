@@ -4,8 +4,8 @@
 }
 
 .logo{
-    width:6rem;
-    height:1.5rem;
+    width:15rem;
+    height:5rem;
 }
 
 .header-menu{
@@ -25,5 +25,10 @@
         display: none;
         
     }
+    .header{
+        display:flex;
+        justify-content: center;
+    }
+    
     
 }
