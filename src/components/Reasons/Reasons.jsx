@@ -25,8 +25,8 @@ const Reasons = () => {
                     Some Reasons
                 </div>
                 <div className='why'>
-                    <span className='stroke-text'>Why </span>
-                    <span> Choose Us?</span>
+                    <span className='stroke-text'>Why</span>
+                    <span>Choose Us?</span>
                 </div>
                 <div className='whyList'>
                     <div className='whyListItem'>

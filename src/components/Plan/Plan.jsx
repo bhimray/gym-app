@@ -6,6 +6,7 @@ import Tick from "../../assets/tick.png"
 const Plan = () => {
   return (
     <div className="plan-container">
+        <div className="blur1 plan-blur"></div>
         <div className="plan-header">
             <span className='stroke-text'>Ready to start</span>
             <span> Your Journey</span>

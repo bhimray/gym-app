@@ -50,3 +50,12 @@
   border-radius: 50%;
   filter:blur(212px);
 }
+
+.blur1 {
+  background-color: #ea3c2a4f;
+  position: absolute;
+  z-index: -9;
+  border-radius: 1%;
+  filter: blur(34.8px);
+  border: 5px solid orange;
+}

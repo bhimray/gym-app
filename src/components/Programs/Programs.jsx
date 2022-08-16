@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import "./Programs.css";
 import {programsData} from "../../data/programsData"
+import {Link} from "react-scroll"
 
 function Programs() {
   return (
@@ -18,7 +19,13 @@ function Programs() {
                 <div>{program.image}</div>
                 <span>{program.heading}</span>
                 <span>{program.details}</span>
-                <div className="btn" style={{color:"var(--orange)"}}>Join now</div>
+                <div className="btn" style={{color:"var(--orange)"}}>
+                <Link 
+                to="joinus-container"
+                span={true}
+                smooth={true}
+                >Join Now</Link>
+                </div>
               </div>
             </Fragment>
           ))

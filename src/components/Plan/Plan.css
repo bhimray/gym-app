@@ -5,6 +5,12 @@
     padding:0 2rem;
     
 }
+
+.plan-blur {
+    width: 69rem;
+    height: max-content;
+}
+
 .plan-header{
     font-size:3rem;
     text-transform: uppercase;
@@ -115,5 +121,8 @@
     .plan-card>:nth-child(2){
         transform:scale(1);
         background-color: #f3e61bde;
+    }
+    .plan-blur{
+        width: 12rem;
     }
 }

@@ -12,11 +12,12 @@
     text-transform: uppercase;
     justify-content: center;
     font-style:italic;
+    margin-bottom: 1rem;
 }
 
 .program-categories{
     display:flex;
-    gap:1rem;
+    gap:2rem;
 }
 
 .category{
@@ -28,7 +29,9 @@
     color:white;
     justify-content: space-between;
 }
-
+.category:hover{
+    background-color: rgba(240, 236, 13, 0.719);
+}
 @media screen and (max-width: 768px) {
     .programs-header{
         font-size: x-large;
@@ -41,6 +44,6 @@
         gap:1rem;
     }
     .Programs{
-        margin-top:1rem;
+        margin-top:0.5rem;
     }
 }

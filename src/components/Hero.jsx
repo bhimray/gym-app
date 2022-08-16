@@ -7,7 +7,7 @@ import hero_image_back from "../assets/hero_image_back.png"
 import heart from "../assets/heart.png"
 import Calories from "../assets/calories.png"
 import { motion } from "framer-motion"
-
+import {Link} from "react-scroll"
 const Hero = () => {
   return (
     <div className="hero">
@@ -21,7 +21,7 @@ const Hero = () => {
           whileInView={{left:"9px"}}
           transition={{type:"spring", duration:2.5}}
           ></motion.div>
-          <span>the best fitness club in the town</span>
+          <span>the best fitness club in Doon</span>
         </div>
         {/*the hero text*/}
         <div className='hero-text'>
@@ -35,18 +35,18 @@ const Hero = () => {
             </span>
           </div>
           <div>
-            <span>In here you can do the gym work and everything.</span>
+            <span>In here you can break and build your muscles</span>
           </div>
         </div>
 
         {/*figures */}
         <div className='figures'>
           <div>
-            <span>+140</span>
+            <span>+2</span>
             <span>expert coachs</span>
           </div>
           <div>
-            <span>+978</span>
+            <span>+500</span>
             <span>members joined</span>
           </div>
           <div>
@@ -56,13 +56,29 @@ const Hero = () => {
         </div>
         {/*hero button */}
         <div className="hero-buttons">
-          <buttons className="btn">Get started</buttons>
-          <buttons className="btn">Learn more</buttons>
+          <buttons className="btn">
+            <Link 
+            to="joinus-container"
+            span={true}
+            smooth={true}
+            >Get started</Link>
+          </buttons>
+          <buttons className="btn">
+          <Link 
+            to="programs"
+            span={true}
+            smooth={true}
+            >Learn More</Link>
+          </buttons>
         </div>
       </div>
       <div className="right">
         <button className="btn">
-          Join Now
+        <Link 
+            to="joinus-container"
+            span={true}
+            smooth={true}
+            >Join Now</Link>
         </button>
         <motion.div
         initial={{x:100}}
