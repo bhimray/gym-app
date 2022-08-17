@@ -37,7 +37,7 @@
     align-items: flex-end;
 }
 .email-sub{
-    display:flex;
+    display:grid;
     justify-content:center;
     align-items: center;
     background-color: gray;
@@ -46,10 +46,19 @@
     position: relative;
 }
 
-.email-sub>input{
-    background-color: transparent;
-    border:none;
+.email-sub > input {
+    background-color: #b8a5a58c;
+    border: none;
     outline: none;
+    border-radius: 0.5rem;
+    height:2rem;
+}
+
+.email-sub > textarea {
+    background-color: #b8a5a58c;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
 }
 
 .btn-j{

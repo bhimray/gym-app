@@ -30,7 +30,7 @@ const Footer = () => {
                     <div className="pageFooter--right">
                         <div className="pageFooter--right-topLine">
                             <a href="/"className="return">
-                                <Link to="header" span={true} smooth={true} class="full">Return to Top</Link>
+                                <Link to="header" span={true} smooth={true} className="full">Return to Top</Link>
                             </a>
                         </div>
                         <div className="pageFooter--right-links">
@@ -38,7 +38,7 @@ const Footer = () => {
                                 <ul className="wrapper" role="presentation">
 
                                     <li>
-                                        <div class="title" role="headeing" aria-level="2">Contact Us</div>
+                                        <div className="title" role="headeing" aria-level="2">Contact Us</div>
                                         <ul className="section" role="presentation">
                                             <li>
                                                 <a href="" role="listitem">Address: Shiniwala, Dehradun,</a>
@@ -50,7 +50,7 @@ const Footer = () => {
                                         </ul>
                                     </li>
                                     <li>
-                                        <div class="title" role="headeing" aria-level="2">Call Us</div>
+                                        <div className="title" role="headeing" aria-level="2">Call Us</div>
                                         <ul className="section" role="presentation">
                                             <li>
                                                 <a href="" role="listitem">Mobile No.:</a>
