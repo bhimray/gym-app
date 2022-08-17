@@ -46,6 +46,10 @@ a {
     width: 179px;
 }
 
+.pageFooter--left-logo>img{
+    width:8rem;
+}
+
 
 .pageFooter--left-social {
     float: left;
