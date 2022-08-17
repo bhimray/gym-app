@@ -19,12 +19,6 @@
     
 }
 
-.right{
-    flex:1;
-    background-color:var(--orange);
-    /* filter:blur(2px);     */
-}
-
 .the_best_ad{
     margin-top:3rem;
     background-color: #363d42;
@@ -116,14 +110,24 @@
     width:8rem;
 }
 
-.right>.btn{
-    position:absolute;
-    right:3rem;
-    top:2rem;
-    width:6rem;
+.right{
+    flex:1;
+    background-color:#625b54a6;
+    background-color: linear-gradient(to right top, transparent, #625b54a6);
+    /* filter:blur(2px);     */
+    position: relative;
 }
 
-.heart-rate{
+.right>.btn{
+    position:absolute;
+    right:12rem;
+    top:10rem;
+    width:8rem;
+    background-color: var(--caloryCard);
+    border-radius: 2rem;
+}
+
+/* .heart-rate{
     background-color: var(--darkGrey);
     display:flex;
     flex-direction: column;
@@ -135,18 +139,18 @@
     position:absolute;
     right:3rem;
     top:6rem;
-}
-.heart-rate>:nth-child(2){
+} */
+/* .heart-rate>:nth-child(2){
     color: gray;
 }
 .heart-rate>:nth-child(3){
     color:white;
-}
+} */
 
 .hero_image {
     position: absolute;
     right: 13rem;
-    top: 10rem;
+    top: 18rem;
     width: 18rem;
   }
   
@@ -158,35 +162,45 @@
     z-index: -1;
 }
 
-.calories{
+.openingTime{
     position:absolute;
-    top:26rem;
-    right: 46rem;
+    top:1rem;
+    right: 2rem;
     display:flex;
     gap:0.5rem;
     background-color: var(--caloryCard);
     padding:0.5rem;
     border-radius: 0.5rem;
     width:fit-content;
+    height: 5rem;
 }
 
-.calories>img{
-    width: 2.5rem;
+.morningTime ,.eveningTime{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #605858c2;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
 }
-
-.calories>div{
+.range{
+    height: 1.2rem;
+    width: 3rem;
+    border-radius: 5rem;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    padding:0.1rem;
+}
+.toggleBar{
+    position:relative;
+    height: 1rem;
+    width:1rem;
+    border-radius: 50%;
+    background-color: yellow;
     display:flex;
-    flex-direction: column;  
-    justify-content: space-between; 
-}
-
-.calories>div>:nth-child(1){
-    color: var(--gray);
-}
-
-.calories>div>:nth-child(2){
-    color:white;
-    font-size:1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 768px) {
