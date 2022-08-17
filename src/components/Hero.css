@@ -232,11 +232,7 @@
     .figures>div>span:nth-of-type(2){
         font-size: small;
     }
-    .heart-rate{
-        position:relative;
-        top:3rem;
-        right:-2rem;
-    }
+    
     .hero_image {
         position: relative;
         width:15rem;
@@ -253,15 +249,23 @@
     .right{
         height:max-content;
     }
-    .right>.btn{
-        position:relative;
-        right:-2rem;
+    .right>.btn {
+        position: relative;
+        right: -2rem;
+        top: 34rem;
     }
-    .calories{
-        position:relative;
-        top:-25rem;
-        right:-0.5rem;
-        
+    .openingTime {
+        position: absolute;
+        top: 25rem;
+        right: 2rem;
+        display: flex;
+        gap: 0.5rem;
+        background-color: var(--caloryCard);
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        width: -moz-fit-content;
+        width: fit-content;
+        height: 5rem;
     }
 
 }
