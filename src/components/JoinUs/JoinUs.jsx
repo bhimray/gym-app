@@ -1,9 +1,9 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./JoinUs.css"
 import emailjs from "emailjs-com"
+import PhoneInput from 'react-phone-number-input'
 
 const JoinUs = () => {
-
   function sendEmail(e) {
     e.preventDefault();
 
@@ -30,6 +30,7 @@ const JoinUs = () => {
           <input type='email' name='email' className='email' placeholder='provide email address'/>
           <input type="text" name="name" className="name" placeholder="Full name"/>
           <input type="text" name="subject" className="subject" placeholder="Subject"/>
+          <input type="tel" id="number" name="number" placeholder="9999999999" pattern="[0-9]{10}" required/>
           <textarea name="description" id="description" cols="30" rows="10" placeholder='For example: I want know more about different plans?'></textarea>
           <button className='btn btn-j'>Submit</button>
         </form>
